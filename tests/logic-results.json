@@ -1,0 +1,162 @@
+{
+  "total": 31,
+  "passed": 31,
+  "failed": 0,
+  "results": [
+    {
+      "id": "KT-TIM-01",
+      "name": "15 分钟时间网格",
+      "result": "pass"
+    },
+    {
+      "id": "KT-TIM-03",
+      "name": "按日期覆盖营业时间",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-03",
+      "name": "完全相同打位时间冲突",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-05",
+      "name": "部分重叠冲突",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-04",
+      "name": "相邻时段不算冲突",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-06",
+      "name": "待确认预约不占位",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-06b",
+      "name": "已取消预约不占位",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-09",
+      "name": "同一会员时段重叠",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-09b",
+      "name": "不同日期不冲突",
+      "result": "pass"
+    },
+    {
+      "id": "KT-LES-05",
+      "name": "教练时段冲突",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-10",
+      "name": "教练休息时段不可约",
+      "result": "pass"
+    },
+    {
+      "id": "KT-RES-04",
+      "name": "休息时段外可约",
+      "result": "pass"
+    },
+    {
+      "id": "KT-LES-07a",
+      "name": "额外学员参与冲突检查（正向）",
+      "result": "pass"
+    },
+    {
+      "id": "KT-LES-07b",
+      "name": "候选人额外学员与已有主会员冲突",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-04",
+      "name": "改约排除自身（excludeId）",
+      "result": "pass"
+    },
+    {
+      "id": "KT-BKG-01/02",
+      "name": "新增已确认预约立即扣课时",
+      "result": "pass"
+    },
+    {
+      "id": "KT-LES-01",
+      "name": "待确认预约不扣课时",
+      "result": "pass"
+    },
+    {
+      "id": "KT-LES-02/07",
+      "name": "确认时扣主会员与额外学员课时",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-01",
+      "name": "取消已确认预约退还课时",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-02",
+      "name": "取消待确认预约不扣不退",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-03",
+      "name": "改约退旧扣新（1h 练习改 2h）",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-05",
+      "name": "教练改约：方案挂原预约，原预约保持确认且课时不动",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-06",
+      "name": "会员接受改约后按新方案退旧扣新",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-08",
+      "name": "会员拒绝改约：原预约与课时保持不变（BUG-02 回归）",
+      "result": "pass"
+    },
+    {
+      "id": "KT-CHG-09",
+      "name": "有待确认改约方案时取消预约：退课时并清除方案",
+      "result": "pass"
+    },
+    {
+      "id": "KT-PAY-01",
+      "name": "充值教练课时并产生流水",
+      "result": "pass"
+    },
+    {
+      "id": "KT-PAY-02",
+      "name": "充值练习时长",
+      "result": "pass"
+    },
+    {
+      "id": "KT-DONE-01",
+      "name": "标记完成",
+      "result": "pass"
+    },
+    {
+      "id": "KT-MGT-01/02/03",
+      "name": "新增打位/教练/会员",
+      "result": "pass"
+    },
+    {
+      "id": "KT-RES-01",
+      "name": "新增休息时段",
+      "result": "pass"
+    },
+    {
+      "id": "KT-UTIL",
+      "name": "timeToMinutes / bookingHours",
+      "result": "pass"
+    }
+  ]
+}
